@@ -26,8 +26,6 @@
 
 </div>
 
-<table align="center"><tr>
-<td width="50%" valign="top">
 <details><summary><b>📡 Live signal</b> <sub>(auto-updates every 6h)</sub></summary>
 
 <!--LIVE:START-->
@@ -45,14 +43,11 @@
 ```
 <!--LIVE:END-->
 </details>
-</td>
-<td width="50%" valign="top">
+
 <details><summary><b>🐍 Easter egg</b></summary>
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rukshan2000/Rukshan2000/output/github-snake-dark.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/Rukshan2000/Rukshan2000/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rukshan2000/Rukshan2000/output/github-snake-dark.svg?v=2" />
+  <img alt="snake" src="https://raw.githubusercontent.com/Rukshan2000/Rukshan2000/output/github-snake.svg?v=2" width="100%" />
 </picture>
 </details>
-</td>
-</tr></table>
