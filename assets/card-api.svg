@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+<style>text{font-family:'Fira Code',ui-monospace,Menlo,monospace} .t{font-size:19px;letter-spacing:1px;font-weight:800}
+.glow{animation:g 4s ease-in-out infinite} @keyframes g{50%{opacity:.55}}</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#151833"/><stop offset=".55" stop-color="#0a0b18"/><stop offset="1" stop-color="#05050b"/></linearGradient>
+<radialGradient id="a" cx=".3" cy=".25" r=".7"><stop offset="0" stop-color="#ff8a3d" stop-opacity=".45"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+<radialGradient id="b" cx=".85" cy=".9" r=".6"><stop offset="0" stop-color="#ff2d55" stop-opacity=".5"/><stop offset="1" stop-color="#ff2d55" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8a3d"/><stop offset="1" stop-color="#ff2d55"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="neon" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity=".7"/></filter>
+<clipPath id="clip"><rect width="240" height="240" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="240" height="240" fill="url(#bg)"/>
+<rect width="240" height="240" fill="url(#a)" class="glow"/>
+<rect width="240" height="240" fill="url(#b)"/>
+<circle cx="53" cy="37" r="1.0" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="3s" repeatCount="indefinite"/></circle><circle cx="106" cy="74" r="1.4" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="4s" repeatCount="indefinite"/></circle><circle cx="159" cy="111" r="0.6" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="5s" repeatCount="indefinite"/></circle><circle cx="212" cy="148" r="1.0" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="2s" repeatCount="indefinite"/></circle><circle cx="25" cy="35" r="1.4" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="3s" repeatCount="indefinite"/></circle><circle cx="78" cy="72" r="0.6" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="4s" repeatCount="indefinite"/></circle><circle cx="131" cy="109" r="1.0" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="5s" repeatCount="indefinite"/></circle><circle cx="184" cy="146" r="1.4" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="2s" repeatCount="indefinite"/></circle><circle cx="237" cy="33" r="0.6" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="3s" repeatCount="indefinite"/></circle><circle cx="50" cy="70" r="1.0" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="4s" repeatCount="indefinite"/></circle><circle cx="103" cy="107" r="1.4" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="5s" repeatCount="indefinite"/></circle><circle cx="156" cy="144" r="0.6" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="2s" repeatCount="indefinite"/></circle><circle cx="209" cy="31" r="1.0" fill="#fff" opacity=".5"><animate attributeName="opacity" values=".1;.8;.1" dur="3s" repeatCount="indefinite"/></circle>
+<rect width="240" height="120.0" fill="url(#shine)"/>
+<rect x="-160" y="0" width="120" height="240" fill="url(#sweep)" transform="skewX(-20)"><animate attributeName="x" values="-200;-200;400" keyTimes="0;.7;1" dur="5s" repeatCount="indefinite"/></rect>
+<rect y="168" width="240" height="72" fill="#000" opacity=".35"/>
+</g>
+<rect x="1" y="1" width="238" height="238" rx="19" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity=".9"/>
+<rect x="1" y="1" width="238" height="238" rx="19" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="30 900"><animate attributeName="stroke-dashoffset" from="0" to="-930" dur="5s" repeatCount="indefinite"/></rect>
+<g transform="translate(40,22)" filter="url(#neon)">
+<rect x="0" y="50" width="40" height="40" rx="6" fill="none" stroke="#ff8a3d"/><text x="20" y="75" text-anchor="middle" fill="#ff8a3d" style="font-size:10px">APP</text>
+<g transform="translate(130,40)"><ellipse cx="15" cy="0" rx="15" ry="6" fill="none" stroke="#ff8a3d"/><path d="M0 0v50a15 6 0 0 0 30 0V0" fill="none" stroke="#ff8a3d"/><ellipse cx="15" cy="25" rx="15" ry="6" fill="none" stroke="#ff8a3d" stroke-opacity=".5"/></g>
+<line x1="40" y1="62" x2="130" y2="62" stroke="#ff8a3d" stroke-opacity=".3"/><line x1="40" y1="78" x2="130" y2="78" stroke="#ff8a3d" stroke-opacity=".3"/>
+<rect y="58" width="12" height="8" rx="2" fill="#ff8a3d"><animate attributeName="x" values="42;118" dur="1.4s" begin="0s" repeatCount="indefinite"/></rect><rect y="74" width="12" height="8" rx="2" fill="#fff"><animate attributeName="x" values="118;42" dur="1.4s" begin="0.3s" repeatCount="indefinite"/></rect><rect y="58" width="12" height="8" rx="2" fill="#ff8a3d"><animate attributeName="x" values="42;118" dur="1.4s" begin="0.7s" repeatCount="indefinite"/></rect><rect y="74" width="12" height="8" rx="2" fill="#fff"><animate attributeName="x" values="118;42" dur="1.4s" begin="1.0s" repeatCount="indefinite"/></rect></g>
+<text x="120" y="208" text-anchor="middle" class="t" fill="url(#edge)" filter="url(#soft)">APIs &amp; BACKENDS</text>
+</svg>
