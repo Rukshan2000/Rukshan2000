@@ -30,15 +30,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 05 Nov 2026 · 05:43 (Colombo)
+  ◉ LIVE · updated 05 Nov 2026 · 11:38 (Colombo)
 
   🔨 now building ...... jeewaka-auto-rental-wp-api
   🏆 most active repo .. LMS-V2
-  📝 last commit ....... "Bot answers from the live fleet (public vehicles API) instea"
+  📝 last commit ....... "Bot asks for name and WhatsApp number in its first reply"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 05:43 — ☕ booting up with tea
+  🕐 local time ........ 11:38 — 💻 probably coding
 
-  last 7 days  █   ▄    6 commits
+  last 7 days  █   █    8 commits
   🃏 "Weeks of coding can save you hours of planning."
 ```
 <!--LIVE:END-->
