@@ -30,13 +30,13 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 06 Nov 2026 · 17:37 (Colombo)
+  ◉ LIVE · updated 06 Nov 2026 · 23:37 (Colombo)
 
-  🔨 now building ...... something secret 🤫
-  🏆 most active repo .. —
+  🔨 now building ...... passkey-kit
+  🏆 most active repo .. passkey-kit
   📝 last commit ....... "—"
   🌡️ mood .............. 🌙 recharging / plotting something
-  🕐 local time ........ 17:37 — 💻 probably coding
+  🕐 local time ........ 23:37 — 🦉 night-owl mode / or asleep
 
   last 7 days           0 commits
   🃏 "Hardware: the part of the computer you can kick."
