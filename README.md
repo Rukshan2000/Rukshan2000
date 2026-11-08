@@ -30,15 +30,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 08 Nov 2026 · 05:43 (Colombo)
+  ◉ LIVE · updated 08 Nov 2026 · 11:37 (Colombo)
 
   🔨 now building ...... passkey-kit
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "v0.2.0: developer features, Hono and Next.js integrations, R"
+  📝 last commit ....... "Docs, lint, CI and MySQL-tested adapters for the first relea"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 05:43 — ☕ booting up with tea
+  🕐 local time ........ 11:37 — 💻 probably coding
 
-  last 7 days      █    4 commits
+  last 7 days      █    5 commits
   🃏 "Git commit -m 'final_final_v3_really_final'"
 ```
 <!--LIVE:END-->
