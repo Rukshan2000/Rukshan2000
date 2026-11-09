@@ -30,15 +30,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 09 Nov 2026 · 17:37 (Colombo)
+  ◉ LIVE · updated 09 Nov 2026 · 23:37 (Colombo)
 
   🔨 now building ...... arthur-de-silva-jewellery
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "feat: add about and contact pages with content and form func"
+  📝 last commit ....... "Add motion animations for hero elements and scroll reveals"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 17:37 — 💻 probably coding
+  🕐 local time ........ 23:37 — 🦉 night-owl mode / or asleep
 
-  last 7 days     █ ▂   6 commits
+  last 7 days     █ ▃█  12 commits
   🃏 "I don't always test my code, but when I do, it's in production."
 ```
 <!--LIVE:END-->
