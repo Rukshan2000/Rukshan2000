@@ -44,9 +44,9 @@ def vibe(hour):
     if 18 <= hour < 23: return "🔥 side-project hours"
     return "🦉 night-owl mode / or asleep"
 
-def fetch(url, token=None):
+def fetch(url, token=None, body=None):
     token = token or os.environ.get("GITHUB_TOKEN")
-    req = urllib.request.Request(url, headers={"User-Agent": "readme-updater", "Accept": "application/vnd.github+json",
+    req = urllib.request.Request(url, data=body and json.dumps(body).encode(), headers={"User-Agent": "readme-updater", "Accept": "application/vnd.github+json",
                                                **({"Authorization": f"Bearer {token}"} if token else {})})
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.load(r)
@@ -77,6 +77,25 @@ def build(events, now):
     ]
     return "```text\n" + "\n".join(rows) + "\n```"
 
+def proof(repos, c, now):
+    """Private-work evidence without leaking client repo names."""
+    langs = Counter(r["language"] for r in repos if r["language"]).most_common(8)
+    top = langs[0][1] if langs else 1
+    year_ago = (now - timedelta(days=365)).isoformat()
+    active = sum(r["pushed_at"] >= year_ago[:10] for r in repos)
+    oldest = min((r["created_at"][:4] for r in repos), default="—")
+    total = c["contributionCalendar"]["totalContributions"] + c["restrictedContributionsCount"]
+    rows = [
+        f"  📦 {len(repos)} repositories ({sum(r['private'] for r in repos)} private · client & production work)",
+        f"  🔥 {total:,} contributions in the last 12 months",
+        f"  🟢 {active} repos shipped to in the last 12 months",
+        f"  📅 building since {oldest}",
+        "",
+        "  languages across all repos",
+        *[f"  {l:<12} {'█' * max(1, round(k / top * 20)):<20} {k}" for l, k in langs],
+    ]
+    return "```text\n" + "\n".join(rows) + "\n```"
+
 def main():
     now = datetime.now(TZ)
     try:
@@ -97,11 +116,15 @@ def main():
     s = re.sub(r"(<!--LIVE:START-->).*?(<!--LIVE:END-->)", lambda m: f"{m[1]}\n{block}\n{m[2]}", s, flags=re.S)
     if os.environ.get("GH_PAT"):  # GITHUB_TOKEN can't see your private repos; a PAT can
         try:
-            n, page = Counter(), 1
-            while batch := fetch(f"https://api.github.com/user/repos?affiliation=owner&per_page=100&page={page}", os.environ["GH_PAT"]):
-                n.update("private" if r["private"] else "public" for r in batch); page += 1
+            pat, repos, page = os.environ["GH_PAT"], [], 1
+            while batch := fetch(f"https://api.github.com/user/repos?affiliation=owner&per_page=100&page={page}", pat):
+                repos += batch; page += 1
+            n = Counter("private" if r["private"] else "public" for r in repos)
             for kind in ("public", "private"):
                 s = re.sub(rf"({kind}%20repos-)\d+(-)", rf"\g<1>{n[kind]}\g<2>", s)
+            q = "{viewer{contributionsCollection{contributionCalendar{totalContributions} totalCommitContributions restrictedContributionsCount totalPullRequestContributions}}}"
+            c = fetch("https://api.github.com/graphql", pat, {"query": q})["data"]["viewer"]["contributionsCollection"]
+            s = re.sub(r"(<!--PROOF:START-->).*?(<!--PROOF:END-->)", lambda m: f"{m[1]}\n{proof(repos, c, now)}\n{m[2]}", s, flags=re.S)
         except Exception as e:
             print(f"repo count failed: {e}")
     open(path, "w", encoding="utf-8").write(s)
@@ -115,6 +138,10 @@ def test():
            "payload": {"commits": [{"message": "feat: barcode auth"}]}}]
     out = build(ev, now)
     assert "AgroPlus" in out and "1 commits" in out and "barcode" in out
+    r = [{"language": "TypeScript", "private": True, "pushed_at": "2026-10-01", "created_at": "2021-01-01"},
+         {"language": None, "private": False, "pushed_at": "2020-01-01", "created_at": "2019-05-01"}]
+    p = proof(r, {"contributionCalendar": {"totalContributions": 10}, "restrictedContributionsCount": 5}, now)
+    assert "2 repositories (1 private" in p and "15 contributions" in p and "1 repos shipped" in p and "since 2019" in p
     print("ok")
 
 if __name__ == "__main__":

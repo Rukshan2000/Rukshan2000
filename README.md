@@ -28,17 +28,38 @@
 
 </div>
 
+### 🔒 Proof of work <sub>(most of my code lives in private client repos — here's the evidence)</sub>
+
+<!--PROOF:START-->
+```text
+  📦 172 repositories (170 private · client & production work)
+  🔥 1,789 contributions in the last 12 months
+  🟢 75 repos shipped to in the last 12 months
+  📅 building since 2023
+
+  languages across all repos
+  JavaScript   ████████████████████ 48
+  HTML         █████████████████    40
+  TypeScript   ████████████████     38
+  Astro        ██                   6
+  PHP          ██                   6
+  Python       █                    2
+  CSS          █                    2
+  C#           █                    2
+```
+<!--PROOF:END-->
+
 <details><summary><b>📡 Live signal</b> <sub>(auto-updates every 6h)</sub></summary>
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 10 Nov 2026 · 10:57 (Colombo)
+  ◉ LIVE · updated 10 Nov 2026 · 10:59 (Colombo)
 
   🔨 now building ...... passkey-kit
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "Docs, lint, CI and MySQL-tested adapters for the first relea"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 10:57 — 💻 probably coding
+  🕐 local time ........ 10:59 — 💻 probably coding
 
   last 7 days    █      5 commits
   🃏 "99 bugs in the code. Fix one. 127 bugs in the code."
