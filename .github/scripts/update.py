@@ -1,4 +1,4 @@
-"""Rewrites the LIVE block in README.md from public GitHub activity. Stdlib only."""
+"""Rewrites the LIVE and PROOF blocks in README.md from GitHub activity. Stdlib only."""
 import json, os, random, re, sys, urllib.request
 from collections import Counter
 from datetime import datetime, timedelta, timezone
