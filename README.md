@@ -32,15 +32,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 10 Nov 2026 · 05:41 (Colombo)
+  ◉ LIVE · updated 10 Nov 2026 · 10:55 (Colombo)
 
-  🔨 now building ...... arthur-de-silva-jewellery
-  🏆 most active repo .. arthur-de-silva-jewellery
-  📝 last commit ....... "Refactor code structure for improved readability and maintai"
+  🔨 now building ...... passkey-kit
+  🏆 most active repo .. passkey-kit
+  📝 last commit ....... "Docs, lint, CI and MySQL-tested adapters for the first relea"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 05:41 — ☕ booting up with tea
+  🕐 local time ........ 10:55 — 💻 probably coding
 
-  last 7 days    ▄ ▂█   17 commits
+  last 7 days    █      5 commits
   🃏 "99 bugs in the code. Fix one. 127 bugs in the code."
 ```
 <!--LIVE:END-->
