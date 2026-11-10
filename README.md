@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-2-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-170-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
+<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-3-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-170-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
 
 <img src="assets/card-web.svg" width="19%"/> <img src="assets/card-mobile.svg" width="19%"/> <img src="assets/card-desktop.svg" width="19%"/> <img src="assets/card-iot.svg" width="19%"/> <img src="assets/card-ext.svg" width="19%"/> 
 <img src="assets/card-ai.svg" width="19%"/> <img src="assets/card-3d.svg" width="19%"/> <img src="assets/card-api.svg" width="19%"/> <img src="assets/card-sec.svg" width="19%"/> <img src="assets/card-games.svg" width="19%"/> 
@@ -32,9 +32,9 @@
 
 <!--PROOF:START-->
 ```text
-  📦 172 repositories (170 private · client & production work)
-  🔥 927 contributions in the last 12 months
-  🟢 75 repos shipped to in the last 12 months
+  📦 173 repositories (170 private · client & production work)
+  🔥 933 contributions in the last 12 months
+  🟢 76 repos shipped to in the last 12 months
   📅 building since 2023
 
   languages across all repos
@@ -53,13 +53,13 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 10 Nov 2026 · 12:23 (Colombo)
+  ◉ LIVE · updated 10 Nov 2026 · 17:36 (Colombo)
 
-  🔨 now building ...... passkey-kit
+  🔨 now building ...... Yummy-client
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "Docs, lint, CI and MySQL-tested adapters for the first relea"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 12:23 — 💻 probably coding
+  🕐 local time ........ 17:36 — 💻 probably coding
 
   last 7 days    █      5 commits
   🃏 "99 bugs in the code. Fix one. 127 bugs in the code."
