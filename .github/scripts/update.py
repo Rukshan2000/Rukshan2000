@@ -97,10 +97,11 @@ def main():
     s = re.sub(r"(<!--LIVE:START-->).*?(<!--LIVE:END-->)", lambda m: f"{m[1]}\n{block}\n{m[2]}", s, flags=re.S)
     if os.environ.get("GH_PAT"):  # GITHUB_TOKEN can't see your private repos; a PAT can
         try:
-            total, page = 0, 1
+            n, page = Counter(), 1
             while batch := fetch(f"https://api.github.com/user/repos?affiliation=owner&per_page=100&page={page}", os.environ["GH_PAT"]):
-                total += len(batch); page += 1
-            s = re.sub(r"(total%20repositories-)\d+(-)", rf"\g<1>{total}\g<2>", s)
+                n.update("private" if r["private"] else "public" for r in batch); page += 1
+            for kind in ("public", "private"):
+                s = re.sub(rf"({kind}%20repos-)\d+(-)", rf"\g<1>{n[kind]}\g<2>", s)
         except Exception as e:
             print(f"repo count failed: {e}")
     open(path, "w", encoding="utf-8").write(s)

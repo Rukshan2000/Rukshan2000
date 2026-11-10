@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20total%20repositories-172-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Total repositories"/></a>
+<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-2-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-170-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
 
 <img src="assets/card-web.svg" width="19%"/> <img src="assets/card-mobile.svg" width="19%"/> <img src="assets/card-desktop.svg" width="19%"/> <img src="assets/card-iot.svg" width="19%"/> <img src="assets/card-ext.svg" width="19%"/> 
 <img src="assets/card-ai.svg" width="19%"/> <img src="assets/card-3d.svg" width="19%"/> <img src="assets/card-api.svg" width="19%"/> <img src="assets/card-sec.svg" width="19%"/> <img src="assets/card-games.svg" width="19%"/> 
