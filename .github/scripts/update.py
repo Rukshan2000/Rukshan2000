@@ -44,9 +44,10 @@ def vibe(hour):
     if 18 <= hour < 23: return "🔥 side-project hours"
     return "🦉 night-owl mode / or asleep"
 
-def fetch(url):
+def fetch(url, token=None):
+    token = token or os.environ.get("GITHUB_TOKEN")
     req = urllib.request.Request(url, headers={"User-Agent": "readme-updater", "Accept": "application/vnd.github+json",
-                                               **({"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"} if os.environ.get("GITHUB_TOKEN") else {})})
+                                               **({"Authorization": f"Bearer {token}"} if token else {})})
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.load(r)
 
@@ -94,6 +95,14 @@ def main():
     path = os.path.join(os.path.dirname(__file__), "../../README.md")
     s = open(path, encoding="utf-8").read()
     s = re.sub(r"(<!--LIVE:START-->).*?(<!--LIVE:END-->)", lambda m: f"{m[1]}\n{block}\n{m[2]}", s, flags=re.S)
+    if os.environ.get("GH_PAT"):  # GITHUB_TOKEN can't see your private repos; a PAT can
+        try:
+            total, page = 0, 1
+            while batch := fetch(f"https://api.github.com/user/repos?affiliation=owner&per_page=100&page={page}", os.environ["GH_PAT"]):
+                total += len(batch); page += 1
+            s = re.sub(r"(total%20repositories-)\d+(-)", rf"\g<1>{total}\g<2>", s)
+        except Exception as e:
+            print(f"repo count failed: {e}")
     open(path, "w", encoding="utf-8").write(s)
 
 def test():
