@@ -21,6 +21,8 @@
 
 <div align="center">
 
+<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FRukshan2000&query=%24.public_repos&label=%F0%9F%93%A6%20total%20repositories&style=for-the-badge&color=ff4fd8&labelColor=0d1117" height="40" alt="Total repositories"/></a>
+
 <img src="assets/card-web.svg" width="19%"/> <img src="assets/card-mobile.svg" width="19%"/> <img src="assets/card-desktop.svg" width="19%"/> <img src="assets/card-iot.svg" width="19%"/> <img src="assets/card-ext.svg" width="19%"/> 
 <img src="assets/card-ai.svg" width="19%"/> <img src="assets/card-3d.svg" width="19%"/> <img src="assets/card-api.svg" width="19%"/> <img src="assets/card-sec.svg" width="19%"/> <img src="assets/card-games.svg" width="19%"/> 
 
