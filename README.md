@@ -53,15 +53,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 11 Nov 2026 · 11:38 (Colombo)
+  ◉ LIVE · updated 11 Nov 2026 · 17:37 (Colombo)
 
-  🔨 now building ...... giteasy
+  🔨 now building ...... passkey-kit
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "Merge pull request #3 from Rukshan2000/docs/updater"
+  📝 last commit ....... "fix(deps): override minimatch to ^11.0.1 for GHSA DoS adviso"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 11:38 — 💻 probably coding
+  🕐 local time ........ 17:37 — 💻 probably coding
 
-  last 7 days   █   ▅   8 commits
+  last 7 days   ▇   █   11 commits
   🃏 "Git commit -m 'final_final_v3_really_final'"
 ```
 <!--LIVE:END-->
