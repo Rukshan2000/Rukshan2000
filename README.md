@@ -33,7 +33,7 @@
 <!--PROOF:START-->
 ```text
   📦 174 repositories (170 private · client & production work)
-  🔥 936 contributions in the last 12 months
+  🔥 937 contributions in the last 12 months
   🟢 77 repos shipped to in the last 12 months
   📅 building since 2023
 
@@ -53,13 +53,13 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 14 Nov 2026 · 11:37 (Colombo)
+  ◉ LIVE · updated 14 Nov 2026 · 17:36 (Colombo)
 
   🔨 now building ...... passkey-kit
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "count private repos in total repositories badge"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 11:37 — 💻 probably coding
+  🕐 local time ........ 17:36 — 💻 probably coding
 
   last 7 days    █      7 commits
   🃏 "There's no place like 127.0.0.1"
