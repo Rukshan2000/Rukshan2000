@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-4-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-173-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
+<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-4-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-174-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
 
 <img src="assets/card-web.svg" width="19%"/> <img src="assets/card-mobile.svg" width="19%"/> <img src="assets/card-desktop.svg" width="19%"/> <img src="assets/card-iot.svg" width="19%"/> <img src="assets/card-ext.svg" width="19%"/> 
 <img src="assets/card-ai.svg" width="19%"/> <img src="assets/card-3d.svg" width="19%"/> <img src="assets/card-api.svg" width="19%"/> <img src="assets/card-sec.svg" width="19%"/> <img src="assets/card-games.svg" width="19%"/> 
@@ -32,16 +32,16 @@
 
 <!--PROOF:START-->
 ```text
-  📦 177 repositories (173 private · client & production work)
-  🔥 972 contributions in the last 12 months
-  🟢 80 repos shipped to in the last 12 months
+  📦 178 repositories (174 private · client & production work)
+  🔥 979 contributions in the last 12 months
+  🟢 81 repos shipped to in the last 12 months
   📅 building since 2023
 
   languages across all repos
   JavaScript   ████████████████████ 48
   TypeScript   ██████████████████   42
   HTML         █████████████████    40
-  Astro        ██                   6
+  Astro        ███                  7
   PHP          ██                   6
   Python       █                    2
   CSS          █                    2
@@ -53,16 +53,16 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 15 Nov 2026 · 23:35 (Colombo)
+  ◉ LIVE · updated 16 Nov 2026 · 05:45 (Colombo)
 
   🔨 now building ...... hr-ragama-opticianse
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "Org chart levels follow InvoHub"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 23:35 — 🦉 night-owl mode / or asleep
+  🕐 local time ........ 05:45 — ☕ booting up with tea
 
-  last 7 days   █    ▁  8 commits
-  🃏 "99 bugs in the code. Fix one. 127 bugs in the code."
+  last 7 days  █    ▁   8 commits
+  🃏 "There's no place like 127.0.0.1"
 ```
 <!--LIVE:END-->
 </details>
