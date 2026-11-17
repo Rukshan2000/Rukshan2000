@@ -34,7 +34,7 @@
 ```text
   📦 180 repositories (176 private · client & production work)
   🔥 992 contributions in the last 12 months
-  🟢 83 repos shipped to in the last 12 months
+  🟢 82 repos shipped to in the last 12 months
   📅 building since 2023
 
   languages across all repos
@@ -53,15 +53,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 16 Nov 2026 · 23:36 (Colombo)
+  ◉ LIVE · updated 17 Nov 2026 · 05:42 (Colombo)
 
   🔨 now building ...... hr-ragama-opticianse
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "Add production Docker deployment (compose, frontend image, n"
+  📝 last commit ....... "Organization name follows InvoHub"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 23:36 — 🦉 night-owl mode / or asleep
+  🕐 local time ........ 05:42 — ☕ booting up with tea
 
-  last 7 days  █   ▁▂   10 commits
+  last 7 days     ▂█    5 commits
   🃏 "There's no place like 127.0.0.1"
 ```
 <!--LIVE:END-->
