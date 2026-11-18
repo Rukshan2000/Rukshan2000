@@ -33,7 +33,7 @@
 <!--PROOF:START-->
 ```text
   📦 181 repositories (176 private · client & production work)
-  🔥 1,026 contributions in the last 12 months
+  🔥 1,032 contributions in the last 12 months
   🟢 83 repos shipped to in the last 12 months
   📅 building since 2023
 
@@ -53,15 +53,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 18 Nov 2026 · 17:36 (Colombo)
+  ◉ LIVE · updated 18 Nov 2026 · 23:36 (Colombo)
 
-  🔨 now building ...... kesari-sans-sinhala-dotted-font
+  🔨 now building ...... hr-ragama-opticianse
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "Organization name follows InvoHub"
+  📝 last commit ....... "InvoHub provisioning: first launch of an app creates the org"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 17:36 — 💻 probably coding
+  🕐 local time ........ 23:36 — 🦉 night-owl mode / or asleep
 
-  last 7 days    ▂█     5 commits
+  last 7 days    ▂█  ▂  6 commits
   🃏 "Git commit -m 'final_final_v3_really_final'"
 ```
 <!--LIVE:END-->
