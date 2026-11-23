@@ -33,7 +33,7 @@
 <!--PROOF:START-->
 ```text
   📦 182 repositories (177 private · client & production work)
-  🔥 1,051 contributions in the last 12 months
+  🔥 1,049 contributions in the last 12 months
   🟢 84 repos shipped to in the last 12 months
   📅 building since 2023
 
@@ -53,16 +53,16 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 22 Nov 2026 · 23:35 (Colombo)
+  ◉ LIVE · updated 23 Nov 2026 · 05:43 (Colombo)
 
   🔨 now building ...... hr-ragama-opticianse
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "Company app links: follow InvoHub linked apps in sidebar and"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 23:35 — 🦉 night-owl mode / or asleep
+  🕐 local time ........ 05:43 — ☕ booting up with tea
 
-  last 7 days    █      2 commits
-  🃏 "Hardware: the part of the computer you can kick."
+  last 7 days   █       2 commits
+  🃏 "I don't always test my code, but when I do, it's in production."
 ```
 <!--LIVE:END-->
 </details>
