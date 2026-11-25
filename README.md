@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-5-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-179-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
+<a href="https://github.com/Rukshan2000?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%8C%8D%20public%20repos-6-ff4fd8?style=for-the-badge&labelColor=0d1117" height="40" alt="Public repositories"/></a> <img src="https://img.shields.io/badge/%F0%9F%94%92%20private%20repos-179-7c3aed?style=for-the-badge&labelColor=0d1117" height="40" alt="Private repositories"/>
 
 <img src="assets/card-web.svg" width="19%"/> <img src="assets/card-mobile.svg" width="19%"/> <img src="assets/card-desktop.svg" width="19%"/> <img src="assets/card-iot.svg" width="19%"/> <img src="assets/card-ext.svg" width="19%"/> 
 <img src="assets/card-ai.svg" width="19%"/> <img src="assets/card-3d.svg" width="19%"/> <img src="assets/card-api.svg" width="19%"/> <img src="assets/card-sec.svg" width="19%"/> <img src="assets/card-games.svg" width="19%"/> 
@@ -32,14 +32,14 @@
 
 <!--PROOF:START-->
 ```text
-  📦 184 repositories (179 private · client & production work)
-  🔥 1,056 contributions in the last 12 months
-  🟢 86 repos shipped to in the last 12 months
+  📦 185 repositories (179 private · client & production work)
+  🔥 1,062 contributions in the last 12 months
+  🟢 87 repos shipped to in the last 12 months
   📅 building since 2023
 
   languages across all repos
   JavaScript   ████████████████████ 49
-  TypeScript   ██████████████████   44
+  TypeScript   ██████████████████   45
   HTML         ████████████████     40
   Astro        ████                 9
   PHP          ██                   6
@@ -53,13 +53,13 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 25 Nov 2026 · 11:38 (Colombo)
+  ◉ LIVE · updated 25 Nov 2026 · 17:37 (Colombo)
 
   🔨 now building ...... hr-ragama-opticianse
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "Company app links: follow InvoHub linked apps in sidebar and"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 11:38 — 💻 probably coding
+  🕐 local time ........ 17:37 — 💻 probably coding
 
   last 7 days           0 commits
   🃏 "It works on my machine. Ship the machine."
