@@ -33,7 +33,7 @@
 <!--PROOF:START-->
 ```text
   📦 185 repositories (179 private · client & production work)
-  🔥 1,063 contributions in the last 12 months
+  🔥 1,064 contributions in the last 12 months
   🟢 87 repos shipped to in the last 12 months
   📅 building since 2023
 
@@ -53,13 +53,13 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 26 Nov 2026 · 17:37 (Colombo)
+  ◉ LIVE · updated 26 Nov 2026 · 23:35 (Colombo)
 
   🔨 now building ...... cmb-ride
   🏆 most active repo .. passkey-kit
   📝 last commit ....... "feat: add wallet management for player progress and local st"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 17:37 — 💻 probably coding
+  🕐 local time ........ 23:35 — 🦉 night-owl mode / or asleep
 
   last 7 days       █   1 commits
   🃏 "I don't always test my code, but when I do, it's in production."
