@@ -53,15 +53,15 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 26 Nov 2026 · 11:38 (Colombo)
+  ◉ LIVE · updated 26 Nov 2026 · 17:37 (Colombo)
 
-  🔨 now building ...... hr-ragama-opticianse
+  🔨 now building ...... cmb-ride
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "Company app links: follow InvoHub linked apps in sidebar and"
+  📝 last commit ....... "feat: add wallet management for player progress and local st"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 11:38 — 💻 probably coding
+  🕐 local time ........ 17:37 — 💻 probably coding
 
-  last 7 days           0 commits
+  last 7 days       █   1 commits
   🃏 "I don't always test my code, but when I do, it's in production."
 ```
 <!--LIVE:END-->
