@@ -53,16 +53,16 @@
 
 <!--LIVE:START-->
 ```text
-  ◉ LIVE · updated 26 Nov 2026 · 23:35 (Colombo)
+  ◉ LIVE · updated 27 Nov 2026 · 05:42 (Colombo)
 
   🔨 now building ...... cmb-ride
   🏆 most active repo .. passkey-kit
-  📝 last commit ....... "feat: add wallet management for player progress and local st"
+  📝 last commit ....... "feat: enhance MiniMap with friend and police spot indicators"
   🌡️ mood .............. 🚀 shipping new features
-  🕐 local time ........ 23:35 — 🦉 night-owl mode / or asleep
+  🕐 local time ........ 05:42 — ☕ booting up with tea
 
-  last 7 days       █   1 commits
-  🃏 "I don't always test my code, but when I do, it's in production."
+  last 7 days      █    3 commits
+  🃏 "My IoT fridge has better uptime than my sleep schedule."
 ```
 <!--LIVE:END-->
 </details>
